@@ -50,7 +50,7 @@ class _GastoState extends State<Gasto>{
         //   )
         // ),
           appBar: AppBar(
-            title: const Text('M& Spac3'),
+            title: const Text('Whatsapp'),
             bottom: const TabBar(tabs: [
               Tab(icon: Icon(Icons.camera_alt)),
               Tab(text: 'Chats'),
@@ -121,6 +121,66 @@ class _GastoState extends State<Gasto>{
                       Icon(Icons.check_circle, color: Colors.blueAccent, size: 20,),
                       SizedBox(width: 8),
                       Text('YO NO FUY!')
+                    ],),
+                  tileColor: Colors.white,
+                ),
+                ListTile(
+                  leading: CircleAvatar(
+                    backgroundImage: AssetImage('assets/images/jackson.jpg'),
+                    radius: 30,
+                  ),
+                  trailing: Text('Ayer'),
+                  title: Text('Jackson', style: TextStyle(fontFamily: 'Roboto', fontSize: 18, fontWeight: FontWeight.bold)),
+                  subtitle: Row(
+                    children: [
+                      Icon(Icons.check_circle, color: Colors.blueAccent, size: 20,),
+                      SizedBox(width: 8),
+                      Text('vamo a jugah')
+                    ],),
+                  tileColor: Colors.white,
+                ),
+                ListTile(
+                  leading: CircleAvatar(
+                    backgroundImage: AssetImage('assets/images/miguel.jpg'),
+                    radius: 30,
+                  ),
+                  trailing: Text('Ayer'),
+                  title: Text('Miguel Angel', style: TextStyle(fontFamily: 'Roboto', fontSize: 18, fontWeight: FontWeight.bold)),
+                  subtitle: Row(
+                    children: [
+                      Icon(Icons.check_circle, color: Colors.blueAccent, size: 20,),
+                      SizedBox(width: 8),
+                      Text('YES SIR!!!')
+                    ],),
+                  tileColor: Colors.white,
+                ),
+                ListTile(
+                  leading: CircleAvatar(
+                    backgroundImage: AssetImage('assets/images/lucia.jpg'),
+                    radius: 30,
+                  ),
+                  trailing: Text('Ayer'),
+                  title: Text('Lucia', style: TextStyle(fontFamily: 'Roboto', fontSize: 18, fontWeight: FontWeight.bold)),
+                  subtitle: Row(
+                    children: [
+                      Icon(Icons.check_circle, color: Colors.blueAccent, size: 20,),
+                      SizedBox(width: 8),
+                      Text('no yo')
+                    ],),
+                  tileColor: Colors.white,
+                ),
+                ListTile(
+                  leading: CircleAvatar(
+                    backgroundImage: AssetImage('assets/images/jason.jpg'),
+                    radius: 30,
+                  ),
+                  trailing: Text('Ayer'),
+                  title: Text('Jason', style: TextStyle(fontFamily: 'Roboto', fontSize: 18, fontWeight: FontWeight.bold)),
+                  subtitle: Row(
+                    children: [
+                      Icon(Icons.check_circle, color: Colors.blueAccent, size: 20,),
+                      SizedBox(width: 8),
+                      Text('...')
                     ],),
                   tileColor: Colors.white,
                 ),
